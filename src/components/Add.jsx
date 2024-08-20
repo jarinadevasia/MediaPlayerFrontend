@@ -77,10 +77,10 @@ function Add({ setUploadVideoStatus }) {
               <Form.Control type="text" placeholder="Enter video caption"
                 onChange={(e) => setVideoDetails({ ...videoDetails, caption: e.target.value })} />
             </Form.Group>
-            {/* <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control type="text" placeholder="Enter video thumbnail URL"
                 onChange={(e) => setVideoDetails({ ...videoDetails, imageUrl: e.target.value })} />
-            </Form.Group> */}
+            </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control type="text" placeholder="Enter YouTube video Link"
                 onChange={(e) => getEmbededLink(e.target.value)} />

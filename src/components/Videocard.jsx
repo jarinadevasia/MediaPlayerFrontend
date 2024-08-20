@@ -69,7 +69,6 @@ function Videocard({ displayVideo, setDeleteVideoStatus }) {
           <Modal.Title>{`${displayVideo.caption}`}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-
         <iframe width="100%" height="480" src={`${displayVideo.youtubeLink}`} 
         title="ZAYN - Dusk Till Dawn (Official Video) ft. Sia" frameborder="0" 
         allow="accelerometer; autoplay;" 
